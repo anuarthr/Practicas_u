@@ -1,5 +1,5 @@
 # Practicas_u
-Proyectos para practicar
+Proyectos compiladores
 
 ## Juegos Disponibles 
 
