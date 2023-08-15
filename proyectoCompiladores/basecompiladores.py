@@ -23,7 +23,7 @@ while seguir:
         elecciones = ["piedra", "papel", "tijera"]
         seguirJugando = True
         while seguirJugando:
-            jugadorEleccion = input("Elige piedra, papel o tijera: ")
+            jugadorEleccion = input("Elige piedra, papel o tijera: ").lower()
             ptEleccion = rand.choice(elecciones)
             print("Tu adversario eligió", ptEleccion)
             if jugadorEleccion == ptEleccion:
